@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Geo distance</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+		<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDt9NXXWVv6XIMPsnaGNErMSbFWiCb-JIA&sensor=false"></script>
+		<link rel="stylesheet" href="style.css">
+
+		<script src='script.js'></script>
+		
+	</head>
+	<body>
+
+    <div id="wrapper">
+        <h2>Geolocation distance Polyline</h2>
+        <h2>Calculates the distance from point A</h2>
+
+        <div id="box">
+            <div id="punkta">
+                <div class='pointAB'>Punkt A</div>
+                <div class='szer'>szer.</div>
+                <div><input id="lat_a" type="text"></div>
+                <div class="dl">dl.</div>
+                <div><input id="lng_a" type="text"></div>
+            </div>
+            
+            <div id="punktb">
+                <div class='pointAB'>Punkt B</div>
+                <div class='szer'>szer.</div>
+                <div><input id="lat_b" type="text"></div>
+                <div class="dl">dl.</div>
+                <div><input id="lng_b" type="text"></div>
+            </div>
+
+            <div id="odleglosc">
+                <div>Odleglosc</div>
+                <div id="wynik">wynik</div>
+                <div>
+                    <button id="button">Oblicz</button>&nbsp;<button id='reset'>Zeruj</button>
+                </div>
+            </div>
+
+        </div>        
+        <div id="map_canvas"></div>        
+    </div>
+
+	</body>
+</html>
