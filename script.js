@@ -180,11 +180,15 @@ function start() {
     var reset = document.getElementById('reset');
 
     reset.addEventListener('click', function() {
-        console.log('click');
+
         const lat_a = document.getElementById('lat_a');
         lat_a.value = '';
         const lng_a = document.getElementById('lng_a');
         lng_a.value = '';
+        const lat_b = document.getElementById('lat_b');
+        lat_b.value = '';
+        const lng_b = document.getElementById('lng_b');
+        lng_b.value = '';
 
     })
 

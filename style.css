@@ -21,20 +21,15 @@ body {
     position:relative;
 }
 #box {
-    width:600px;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 #punkta, #punktb {
-    /*
-    outline: 1px solid green;
-    */
-    border-bottom: 1px solid red;
+    /* border-bottom: 1px solid red; */
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px; 
-    /* padding-top: 5px;    */
 }
 .pointAB {
     padding-top: 5px;
@@ -45,30 +40,21 @@ body {
 
 #punkta div:nth-child(1), #punkta div:nth-child(3), #punkta div:nth-child(5),
 #punktb div:nth-child(1), #punktb div:nth-child(3), #punktb div:nth-child(5) {
-    width:140px;
     float:left;
-    /*
-    outline: 1px solid red;
-    */
 }
 #odleglosc div:nth-child(1), #odleglosc div:nth-child(3)  {
     width:180px;
     float:left;
-    /*
-    outline: 1px solid red;
-    */
 } 
 #odleglosc #wynik {
     width:180px;
     float:left;
 }       
 input {
-    width:140px;
+    width:200px;
     border: none;
     background-color: #eee;
-    border-left:1px solid gray;
-    /* margin-top: 10px;
-    margin-bottom: 10px; */
+    border-bottom:1px solid gray;
     padding: 5px;
     font-size: 18px; 
 }  
@@ -79,7 +65,6 @@ button {
 }
 .szer, .dl {
     margin-left: 30px;
-    border:1px solid red;
     overflow: hidden;
     float:left;
     padding-top: 5px;
