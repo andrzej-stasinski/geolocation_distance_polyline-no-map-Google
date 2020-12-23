@@ -1,6 +1,6 @@
 
 
-// Obliczenie odleglosci
+// Obliczenie odległości
 // ---------------------
 function oblicz(a,b,c,d) {
     console.log('oblicz');
@@ -44,7 +44,7 @@ function oblicz(a,b,c,d) {
 // Polyline create - for click
 // --------
 function polyline(map, lat1, lng1, lat2, lng2) {
-    //Polylines remove
+    // Polylines remove
     if(flightPath != null) {
         console.log('flightPath');
         polyline_remove();
